@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  phpdev:
+    container_name: php
+    image: mcr.microsoft.com/devcontainers/php:0-8.2
+    restart: always
+    ports:
+      - 8000:80
+    volumes:
+      - .:/workspace
+      - ./docker/xdebug/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./public_html:/var/www/html
+      - ./src:/var/www/src
+  db:
+    container_name: mysqldev
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_pass
+    ports:
+      - "9906:3306"
+    volumes:
+      - devdata:/var/lib/mysql
+volumes:
+  devdata:
