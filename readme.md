@@ -1,6 +1,9 @@
 # PHP/MySQL Devcontainer
 A baseline PHP and MySQL dev containter.
 
+# Known Issues
+For some reason a `git push` from the command line results in an error, however, using the Source Control feature on the side bar does sync to a remote repo.
+
 ## Tech Stack
 The basis for the PHP container comes from Microsoft's [mcr.microsoft.com/devcontainers/php:0-8.2](https://hub.docker.com/_/microsoft-devcontainers-php?tab=description) image.  I have not been able to find a feature list for the exact image, however, this [dev](https://github.com/devcontainers/images/blob/main/src/php/history/dev.md) gives a good idea of all the tools installed.  The version numbers for each install might vary from the linked file to the image.
 
