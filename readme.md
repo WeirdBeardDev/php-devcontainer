@@ -1,11 +1,13 @@
 # PHP/MySQL Devcontainer
 A baseline PHP and MySQL dev containter.
 
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/WeirdBeardDev/php-devcontainer)
+
 # Known Issues
 For some reason a `git push` from the command line results in an error, however, using the Source Control feature on the side bar does sync to a remote repo.
 
 ## Tech Stack
-The basis for the PHP container comes from Microsoft's [mcr.microsoft.com/devcontainers/php:0-8.2](https://hub.docker.com/_/microsoft-devcontainers-php?tab=description) image.  I have not been able to find a feature list for the exact image, however, this [dev](https://github.com/devcontainers/images/blob/main/src/php/history/dev.md) gives a good idea of all the tools installed.  The version numbers for each install might vary from the linked file to the image.
+The basis for the PHP container comes from Microsoft's [mcr.microsoft.com/devcontainers/php:0-8.2](https://hub.docker.com/_/microsoft-devcontainers-php?tab=description) image.  I have not been able to find a feature list for the exact image, however, this [dev](https://github.com/devcontainers/images/blob/main/src/php/history/dev.md) readme file gives a good idea of all the tools installed.  The version numbers for each install might vary from the linked file to the image.
 
 * PHP v8.2.5
 * Composer v2.5.5
