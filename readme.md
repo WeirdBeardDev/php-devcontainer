@@ -1,5 +1,5 @@
 # PHP/MySQL Devcontainer
-A baseline PHP and MySQL dev containter.
+A baseline PHP and MySQL dev containter.  This represents my first attempt at creating a devcontainer, and ideally I want to use this a template for future PHP/MySQL projects.
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/WeirdBeardDev/php-devcontainer)
 
