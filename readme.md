@@ -6,6 +6,18 @@ A baseline PHP and MySQL dev containter.  This represents my first attempt at cr
 # Known Issues
 For some reason a `git push` from the command line results in an error, however, using the Source Control feature on the side bar does sync to a remote repo.
 
+# Create a PHP Dev Env From This
+The following directions may need updating.
+
+1. Clone this repo into a local folder
+2. Remove the current remote repo
+3. Create a new remote repo for the project
+4. Link the remote repo to the local repo
+5. Update `docker-compose.yml` - change the container names for all services to reflect the project
+6. Reopen the project in the container
+7. Update the readme to reflect the project
+8. Commit all changes
+
 ## Tech Stack
 The basis for the PHP container comes from Microsoft's [mcr.microsoft.com/devcontainers/php:0-8.2](https://hub.docker.com/_/microsoft-devcontainers-php?tab=description) image.  I have not been able to find a feature list for the exact image, however, this [dev](https://github.com/devcontainers/images/blob/main/src/php/history/dev.md) readme file gives a good idea of all the tools installed.  The version numbers for each install might vary from the linked file to the image.
 
